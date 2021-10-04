@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "codeuix",
+    "database": "database_ecommerce",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "codeuix",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "codeuix",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "usermanagment",
+  "version": "1.0.0",
+  "description": "user managent api's",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "usermanagment",
+    "api"
+  ],
+  "author": "Nithin Muniswamy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  }
+}
