@@ -4,7 +4,8 @@
   "description": "user managent api's",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "node app.js",
+    "start-gendoc": "node swagger.js"
   },
   "keywords": [
     "usermanagment",
@@ -20,6 +21,10 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.6.5"
+    "sequelize": "^6.6.5",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.11.2"
   }
 }
